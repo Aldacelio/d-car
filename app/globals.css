@@ -51,7 +51,7 @@
 }
 
 .hero__text {
-  @apply 2xl:text-[30px] lg:text-[22px] text-[18px] text-black-100 font-light;
+  @apply 2xl:text-[30px] lg:text-[20px] text-[18px] text-black-100 font-light;
 }
 
 .hero__image-container {

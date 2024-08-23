@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Encontre, reserve ou alugue um carro com rapidez e facilidade
+          Alugue um carro com rapidez e facilidade
         </h1>
         <p className="hero__text">
           Simplifique sua experiência de aluguel de carro com nosso processo de
