@@ -33,7 +33,7 @@
 }
 
 .custom-btn {
-  @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
+  @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none 2xl:py-5 2xl:px-8 2xl:text-[20px];
 }
 /* END: General styles */
 
@@ -43,15 +43,15 @@
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] sm:text-[45px] text-[50px] font-extrabold;
+  @apply 2xl:text-[65px] lg:text-[50px] sm:text-[45px] text-[35px] font-extrabold;
 }
 
 .hero__subtitle {
-  @apply 2xl:text-[45px] text-[27px] text-black-100 font-light mt-5;
+  @apply 2xl:text-[35px] text-[27px] text-black-100 font-light mt-5;
 }
 
 .hero__text {
-  @apply 2xl:text-[35px] text-[18px] text-black-100 font-light;
+  @apply 2xl:text-[30px] lg:text-[22px] text-[18px] text-black-100 font-light;
 }
 
 .hero__image-container {
@@ -59,11 +59,11 @@
 }
 
 .hero__image {
-  @apply relative xl:w-full xl:h-full md:w-[70%] md:h-[480px] md:z-0 md:flex hidden;
+  @apply relative xl:w-full xl:h-full sm:h-[480px] w-[70%] h-[360px] z-0 flex;
 }
 
 .hero__image-overlay {
-  @apply absolute xl:-top-24 xl:-right-1/2 xl:h-screen md:-right-2/4 md:bg-hero-bg md:bg-repeat-round md:-z-10 md:w-full  md:h-[590px] md:overflow-hidden md:flex hidden;
+  @apply absolute xl:-top-24 xl:-right-1/2 xl:h-screen sm:-right-2/4 sm:h-[590px] -right-2/4 bg-hero-bg bg-repeat-round -z-10 w-full h-[360px] overflow-hidden flex;
 }
 /* END: Hero styles */
 
